@@ -13,6 +13,7 @@
 		AF8C3B6C26562DFE0004C769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8C3B6B26562DFE0004C769 /* Preview Assets.xcassets */; };
 		AF8C3B74265632240004C769 /* CreatingCustomPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B73265632240004C769 /* CreatingCustomPath.swift */; };
 		AF8C3B76265654540004C769 /* PathVsShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B75265654540004C769 /* PathVsShape.swift */; };
+		AF8C3B7826565F000004C769 /* AddingStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B7726565F000004C769 /* AddingStrokeBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF8C3B6D26562DFE0004C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8C3B73265632240004C769 /* CreatingCustomPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPath.swift; sourceTree = "<group>"; };
 		AF8C3B75265654540004C769 /* PathVsShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathVsShape.swift; sourceTree = "<group>"; };
+		AF8C3B7726565F000004C769 /* AddingStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingStrokeBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AF8C3B6626562DFB0004C769 /* ContentView.swift */,
 				AF8C3B73265632240004C769 /* CreatingCustomPath.swift */,
 				AF8C3B75265654540004C769 /* PathVsShape.swift */,
+				AF8C3B7726565F000004C769 /* AddingStrokeBorder.swift */,
 				AF8C3B6826562DFE0004C769 /* Assets.xcassets */,
 				AF8C3B6D26562DFE0004C769 /* Info.plist */,
 				AF8C3B6A26562DFE0004C769 /* Preview Content */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8C3B6726562DFB0004C769 /* ContentView.swift in Sources */,
+				AF8C3B7826565F000004C769 /* AddingStrokeBorder.swift in Sources */,
 				AF8C3B6526562DFB0004C769 /* project_9App.swift in Sources */,
 				AF8C3B74265632240004C769 /* CreatingCustomPath.swift in Sources */,
 				AF8C3B76265654540004C769 /* PathVsShape.swift in Sources */,
