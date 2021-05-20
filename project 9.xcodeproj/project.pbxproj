@@ -11,6 +11,7 @@
 		AF8C3B6726562DFB0004C769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B6626562DFB0004C769 /* ContentView.swift */; };
 		AF8C3B6926562DFE0004C769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8C3B6826562DFE0004C769 /* Assets.xcassets */; };
 		AF8C3B6C26562DFE0004C769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8C3B6B26562DFE0004C769 /* Preview Assets.xcassets */; };
+		AF8C3B74265632240004C769 /* CreatingCustomPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B73265632240004C769 /* CreatingCustomPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AF8C3B6826562DFE0004C769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF8C3B6B26562DFE0004C769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF8C3B6D26562DFE0004C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8C3B73265632240004C769 /* CreatingCustomPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				AF8C3B6426562DFB0004C769 /* project_9App.swift */,
 				AF8C3B6626562DFB0004C769 /* ContentView.swift */,
+				AF8C3B73265632240004C769 /* CreatingCustomPath.swift */,
 				AF8C3B6826562DFE0004C769 /* Assets.xcassets */,
 				AF8C3B6D26562DFE0004C769 /* Info.plist */,
 				AF8C3B6A26562DFE0004C769 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				AF8C3B6726562DFB0004C769 /* ContentView.swift in Sources */,
 				AF8C3B6526562DFB0004C769 /* project_9App.swift in Sources */,
+				AF8C3B74265632240004C769 /* CreatingCustomPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
