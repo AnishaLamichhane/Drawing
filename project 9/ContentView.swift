@@ -7,10 +7,32 @@
 
 import SwiftUI
 
+struct NamedView {
+    var name: String
+    var view: AnyView
+
+    init<V>(_ name: String, view: V) where V: View {
+        self.name = name
+        self.view = AnyView(view)
+    }
+}
+
 struct ContentView: View {
+    private let drawings: [NamedView] = [
+        NamedView("Creating custom paths with SwiftUI", view: CreatingCustomPath()),
+        NamedView("Paths vs shapes in SwiftUI", view: PathVsShape()),
+        NamedView("Adding strokeBorder() support with InsettableShape", view: AddingStrokeBorder())
+   ]
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(0..<drawings.count) { i in
+                NavigationLink(destination: self.drawings[i].view) {
+                    Text(self.drawings[i].name)
+                }
+            }
+            .navigationBarTitle("Drawing")
+        }
     }
 }
 
