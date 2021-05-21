@@ -26,10 +26,12 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
+            ScrollView {
             List(0..<drawings.count) { i in
                 NavigationLink(destination: self.drawings[i].view) {
                     Text(self.drawings[i].name)
                 }
+            }
             }
             .navigationBarTitle("Drawing")
         }
