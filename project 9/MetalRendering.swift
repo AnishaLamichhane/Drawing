@@ -14,9 +14,13 @@ struct ColorCyclingCircle: View {
             ForEach(0..<steps){ value in
                 Circle()
                     .inset(by: CGFloat(value))
-                    .strokeBorder(self.color(for: value, brightness: 1), lineWidth: 2)
+                    .strokeBorder(LinearGradient(gradient: Gradient(colors: [
+                        color(for: value, brightness: 1),
+                        color(for: value, brightness: 0.5)
+                    ]), startPoint: .top, endPoint: .bottom), lineWidth: 2)
             }
-        }
+        } // The drawingGroup() modifier is helpful to know about and to keep in your arsenal as a way to solve performance problems when you hit them, but you should not use it that often.
+        .drawingGroup()
     }
     
     func color(for value: Int, brightness: Double)-> Color {
@@ -32,8 +36,13 @@ struct ColorCyclingCircle: View {
 }
 
 struct MetalRendering: View {
+    @State private var colorCycle = 0.0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ColorCyclingCircle(amount: self.colorCycle)
+                .frame(width: 300, height: 300)
+            Slider(value: $colorCycle)
+        }
     }
 }
 

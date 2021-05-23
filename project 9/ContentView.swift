@@ -21,7 +21,8 @@ struct ContentView: View {
     private let drawings: [NamedView] = [
         NamedView("Creating custom paths with SwiftUI", view: CreatingCustomPath()),
         NamedView("Paths vs shapes in SwiftUI", view: PathVsShape()),
-        NamedView("Adding strokeBorder() support with InsettableShape", view: AddingStrokeBorder())
+        NamedView("Adding strokeBorder() support with InsettableShape", view: AddingStrokeBorder()),
+        NamedView("MetalRendering with drawingGroup()", view: MetalRendering())
    ]
 
     var body: some View {
