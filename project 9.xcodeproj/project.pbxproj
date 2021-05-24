@@ -17,6 +17,7 @@
 		AF8C3B7C26579CB00004C769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B7B26579CAF0004C769 /* ContentView.swift */; };
 		AF8C3B7E2657D9890004C769 /* ImagePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B7D2657D9890004C769 /* ImagePaint.swift */; };
 		AF8C3B802658F5DF0004C769 /* MetalRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B7F2658F5DF0004C769 /* MetalRendering.swift */; };
+		AF8C3B82265BD6B80004C769 /* SpecialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B81265BD6B80004C769 /* SpecialEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AF8C3B7B26579CAF0004C769 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF8C3B7D2657D9890004C769 /* ImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaint.swift; sourceTree = "<group>"; };
 		AF8C3B7F2658F5DF0004C769 /* MetalRendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRendering.swift; sourceTree = "<group>"; };
+		AF8C3B81265BD6B80004C769 /* SpecialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				AF8C3B7926579C6A0004C769 /* TransformingShapesView.swift */,
 				AF8C3B7D2657D9890004C769 /* ImagePaint.swift */,
 				AF8C3B7F2658F5DF0004C769 /* MetalRendering.swift */,
+				AF8C3B81265BD6B80004C769 /* SpecialEffect.swift */,
 				AF8C3B6826562DFE0004C769 /* Assets.xcassets */,
 				AF8C3B6D26562DFE0004C769 /* Info.plist */,
 				AF8C3B6A26562DFE0004C769 /* Preview Content */,
@@ -159,6 +162,7 @@
 				AF8C3B802658F5DF0004C769 /* MetalRendering.swift in Sources */,
 				AF8C3B7E2657D9890004C769 /* ImagePaint.swift in Sources */,
 				AF8C3B7826565F000004C769 /* AddingStrokeBorder.swift in Sources */,
+				AF8C3B82265BD6B80004C769 /* SpecialEffect.swift in Sources */,
 				AF8C3B6526562DFB0004C769 /* project_9App.swift in Sources */,
 				AF8C3B7C26579CB00004C769 /* ContentView.swift in Sources */,
 				AF8C3B74265632240004C769 /* CreatingCustomPath.swift in Sources */,
