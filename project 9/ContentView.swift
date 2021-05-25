@@ -20,10 +20,13 @@ struct NamedView {
 struct ContentView: View {
     private let drawings: [NamedView] = [
         NamedView("Creating custom paths with SwiftUI", view: CreatingCustomPath()),
+        NamedView("Transforming Shape View", view: TransformingShapesView()),
         NamedView("Paths vs shapes in SwiftUI", view: PathVsShape()),
         NamedView("Adding strokeBorder() support with InsettableShape", view: AddingStrokeBorder()),
         NamedView("Adding Special effets in SwiftUI", view: AddingStrokeBorder()),
-        NamedView("MetalRendering with drawingGroup()", view: MetalRendering())
+        NamedView("MetalRendering with drawingGroup()", view: MetalRendering()),
+        NamedView("AnimatableData()", view: AnimableData()),
+        NamedView("Animating complex shapes with AnimatablePair", view: CheckerBoard())
    ]
 
     var body: some View {
@@ -34,6 +37,8 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("Drawing")
+            .foregroundColor(.green)
+            .font(.headline)
            
         }
         

@@ -51,6 +51,8 @@ struct TransformingShapesView: View {
             Flower(petalOffset: petalOffset, petalWidth: petalWidth)
                 .fill(Color.red, style: FillStyle(eoFill: true))
             
+            Spacer()
+            
             Text("Offset")
             Slider(value: $petalOffset, in: -40...40)
                 .padding([.horizontal, .bottom])
