@@ -59,8 +59,8 @@ struct CheckerBoard: View {
     
     var body: some View {
         CheckerBoards(rows: rows, columns: columns)
-        onTapGesture {
-            withAnimation(.linear(duration: 3)) {
+            .onTapGesture {
+             withAnimation(.linear(duration: 3)) {
                 self.rows = 8
                 self.columns = 16
             }

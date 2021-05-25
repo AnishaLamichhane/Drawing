@@ -20,6 +20,7 @@
 		AF8C3B82265BD6B80004C769 /* SpecialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B81265BD6B80004C769 /* SpecialEffect.swift */; };
 		AF8C3B84265BDE330004C769 /* AnimableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C3B83265BDE330004C769 /* AnimableData.swift */; };
 		AFEAA4DD265CD2E100135BBD /* CheckerBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEAA4DC265CD2E100135BBD /* CheckerBoard.swift */; };
+		AFEAA4DF265CF2C200135BBD /* Spirographs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEAA4DE265CF2C200135BBD /* Spirographs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		AF8C3B81265BD6B80004C769 /* SpecialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffect.swift; sourceTree = "<group>"; };
 		AF8C3B83265BDE330004C769 /* AnimableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimableData.swift; sourceTree = "<group>"; };
 		AFEAA4DC265CD2E100135BBD /* CheckerBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerBoard.swift; sourceTree = "<group>"; };
+		AFEAA4DE265CF2C200135BBD /* Spirographs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirographs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				AF8C3B81265BD6B80004C769 /* SpecialEffect.swift */,
 				AF8C3B83265BDE330004C769 /* AnimableData.swift */,
 				AFEAA4DC265CD2E100135BBD /* CheckerBoard.swift */,
+				AFEAA4DE265CF2C200135BBD /* Spirographs.swift */,
 				AF8C3B6826562DFE0004C769 /* Assets.xcassets */,
 				AF8C3B6D26562DFE0004C769 /* Info.plist */,
 				AF8C3B6A26562DFE0004C769 /* Preview Content */,
@@ -175,6 +178,7 @@
 				AFEAA4DD265CD2E100135BBD /* CheckerBoard.swift in Sources */,
 				AF8C3B74265632240004C769 /* CreatingCustomPath.swift in Sources */,
 				AF8C3B7A26579C6A0004C769 /* TransformingShapesView.swift in Sources */,
+				AFEAA4DF265CF2C200135BBD /* Spirographs.swift in Sources */,
 				AF8C3B76265654540004C769 /* PathVsShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
