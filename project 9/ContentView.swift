@@ -22,20 +22,21 @@ struct ContentView: View {
         NamedView("Creating custom paths with SwiftUI", view: CreatingCustomPath()),
         NamedView("Paths vs shapes in SwiftUI", view: PathVsShape()),
         NamedView("Adding strokeBorder() support with InsettableShape", view: AddingStrokeBorder()),
+        NamedView("Adding Special effets in SwiftUI", view: AddingStrokeBorder()),
         NamedView("MetalRendering with drawingGroup()", view: MetalRendering())
    ]
 
     var body: some View {
         NavigationView {
-            ScrollView {
             List(0..<drawings.count) { i in
                 NavigationLink(destination: self.drawings[i].view) {
                     Text(self.drawings[i].name)
                 }
             }
-            }
             .navigationBarTitle("Drawing")
+           
         }
+        
     }
 }
 
